@@ -1,0 +1,152 @@
+/* Info stuff */
+.infoWrapper select {
+    width:395px;
+    margin:0;
+    color:#40403f;
+}
+.infoWrapper h4, .infoWrapper label {
+    font-size:1em;
+    font-weight:normal;
+    margin:23px 0 5px;
+    line-height:1.15;
+    color:#40403f;
+}
+.infoWrapper p {
+    padding:0;
+    margin:0;
+    line-height:1;
+    font-size:1.15em;
+    color:#40403f;
+}
+.infoWrapper a {
+    margin:15px 0 0 0;
+    font-weight:bold;
+}
+
+/* Big wrapper */
+.requirementsBox {
+    width:867px;
+}
+
+/* Individual boxes, use padding over margin on inner elements for javascript friendliness */
+.box {
+    width:229px;
+    padding:23px;
+    height:199px;
+    border:2px solid #efefef;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    float:left;
+    margin:0 15px 0 0;
+    position:relative;
+    z-index:50;
+}
+
+/* Icon and header text above the progress bars */
+.box .tops {
+    background:url('../img/titleSprite.jpg') 0 0 no-repeat;
+    text-align:center;
+    height:70px;
+    margin-bottom:45px;
+}
+.box .tops h3 {
+    width:143px;
+    margin-left:75px;
+}
+.consult h3, .coaching h3 {
+    text-align:left;
+}
+.coaching .tops {
+    background-position:0 -89px;
+}
+.consult .tops {
+    background-position:0 -174px;
+}
+
+/* For the min max arrows */
+.box .indicator {
+    background:url('../img/indicator.jpg') 0 0 no-repeat;
+    height:7px;
+    margin:0;
+    padding:10px 0 0 0;
+    position:absolute;
+    background-position:28px 0;
+    width:65px;
+    text-align:center;
+    color:#666;
+    font-size:.7em;
+    top:158px;
+    z-index:25;
+}
+.consult {
+    margin:0;
+}
+
+/* Details buttons */
+.box .btn {
+    margin:19px 0 0 75px;
+}
+.tests .btn {
+    margin-top:0;
+}
+
+/* Tooltip/counters */
+.box .tooltip {
+    display:block;
+    visibility:visible;
+    font-weight:bold;
+    position:absolute;
+    top:105px;
+    left:7px;
+}
+#sessionsBar, #sessionsNum .tooltip-inner{
+    background-color:#69b653;
+    background-image:none;
+}
+#sessionsNum .tooltip-arrow {
+    border-top-color:#69b653;
+}
+#conslutationsBar, #consultationsNum .tooltip-inner{
+    background-color:#f59900;
+    background-image:none;
+}
+#consultationsNum .tooltip-arrow {
+    border-top-color:#f59900;
+}
+.box .progress .bar-success {
+    opacity:.3;
+}
+
+
+
+
+.go {
+    cursor:pointer;
+    border:1px solid black;
+    padding:5px;
+}
+.tester {
+    width:500px;
+}
+.tester2 {
+    width:900px;
+}
+h1 {
+    color:#C00;
+    font-size:160px;
+    position:fixed;
+    top:50%;
+    right:10%;
+    display:none;
+    z-index:30001;
+    text-shadow: 5px 5px 1px #000000;
+    filter: dropshadow(color=#000000, offx=5, offy=5);
+}
+img {
+    width:300px;
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+    z-index:20000;
+}
